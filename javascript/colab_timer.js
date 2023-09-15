@@ -43,9 +43,9 @@ function checkIgnoreUrls(){
   // ignored urls may include : "paperspace", localhosts urls
   const ignoredUrls = [
     "paperspace",
-    "localhost",
-    "127.0.0.1",
-    "0.0.0.0"
+    //"localhost",
+    //127.0.0.1",
+    //"0.0.0.0"
   ]
 
   for(let i = 0; i < ignoredUrls.length; i++){

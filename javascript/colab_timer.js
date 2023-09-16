@@ -104,9 +104,8 @@ onUiLoaded(function () {
   timerEl.style = "font-family: monospace;color: orange;";
   timerEl.innerText = "Connecting...";
   div2.appendChild(img);
-    div2.appendChild(timerEl);
-    mainDiv.appendChild(div2);
-  }
+  div2.appendChild(timerEl);
+  mainDiv.appendChild(div2);
   div2.onclick = () => refreshTimer(timerEl);
 
   let audioMuteDiv = document.createElement("div");

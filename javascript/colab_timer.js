@@ -19,7 +19,7 @@ function updateTimer(el) {
   // show different text betwen 4:58 and 5:15
   if (c > 298 && c < 315) {
     el.innerText =
-      "Usually there's captcha at this time, please check your colab (" +
+      "Everyday we stray further from god! (" +
       h +
       ":" +
       m +

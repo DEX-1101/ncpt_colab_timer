@@ -97,11 +97,11 @@ onUiLoaded(function () {
 
   let img = document.createElement("img");
   img.src =
-    "https://ssl.gstatic.com/colaboratory-static/common/de56aa663d279b80074b6c21f69dc872/img/favicon.ico";
+    "https://raw.githubusercontent.com/DEX-1101/timer/main/studiolab.ico";
   img.width = 24;
 
   let timerEl = document.createElement("div");
-  timerEl.style = "font-family: monospace;color: orange;";
+  timerEl.style = "font-family: monospace;color: purple;";
   timerEl.innerText = "Connecting...";
   div2.appendChild(img);
   div2.appendChild(timerEl);

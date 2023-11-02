@@ -92,7 +92,7 @@ onUiLoaded(function () {
   let div2 = document.createElement("div");
   div2.className = "gr-box";
   div2.style =
-    "gap: 0.5rem; border-radius:10px; display:flex;align-items:center;border-width:1px; display:flex; cursor: pointer; padding-block: 3px; width: fit-content; padding-inline: 5px; border-color: orange; z-index: 999; background-color: transparent !important;";
+    "gap: 0.5rem; border-radius:10px; display:flex;align-items:center;border-width:1px; display:flex; cursor: pointer; padding-block: 3px; width: fit-content; padding-inline: 5px; border-color: white; z-index: 999; background-color: transparent !important;";
   div2.title = "Colab Timer Integration by NoCrypt. Click to refresh.";
 
   let img = document.createElement("img");
@@ -101,7 +101,7 @@ onUiLoaded(function () {
   img.width = 24;
 
   let timerEl = document.createElement("div");
-  timerEl.style = "font-family: monospace;color: purple;";
+  timerEl.style = "font-family: monospace;color: white;";
   timerEl.innerText = "Connecting...";
   div2.appendChild(img);
   div2.appendChild(timerEl);
